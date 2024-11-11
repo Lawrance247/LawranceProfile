@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2E2E2E; /* Dark background color for programmers */
+    color: #32CD32; /* White text for contrast */
+}
+
+header {
+    background-color: #333;
+    color: #32CD32;
+    padding: 1rem;
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    padding: 2rem;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.skills, .contact {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    background: #1d1f1e; /* Light background for content sections */
+    color: #32CD32; /* Dark text color for readability */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2, .contact h2 {
+    margin-bottom: 1rem;
+    color: #cf151b;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #020202;
+    color: #32CD32;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #d82b2b;
+    font-size: 1.5rem;
+}
+
+.skillsContent, .projectsContent {
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #080808;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #3d463e;
+    color: #fff;
+}
